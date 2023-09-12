@@ -1,0 +1,5 @@
+services:
+  radis:
+    image: "redis/redis-stack-server:latest"
+    ports:
+      - "6379:6379"
